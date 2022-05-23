@@ -18,7 +18,9 @@ export class CardComponent implements OnInit {
         caracteristicas: 'The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.',
         avatar:"background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');background-size: cover",
         imagen:'https://material.angular.io/assets/img/examples/shiba2.jpg',
-        tipo:'Dog Breed'
+
+        tipo:'Dog Breed',
+/*         compartir:"https://es.wikipedia.org/wiki/Shiba_Inu" */
       },
       {
         nombre: 'Canario',
@@ -68,7 +70,5 @@ export class CardComponent implements OnInit {
   darfav(){
     this.favorito=true;
   }
-  openDialog(): void {
-     /*  const dialogoRef= this.dialog.open("Mascota") */
-    }
+
 }

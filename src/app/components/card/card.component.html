@@ -16,9 +16,8 @@
             <mat-card-actions>
             <button *ngIf="!megusta" mat-button (click)="darlike()">Me gusta</button>
             <button *ngIf="megusta" mat-button> <mat-icon color="primary">favorite</mat-icon></button>
-            
-            
-            <button mat-button (click)="openDialog()">Compartir</button>
+
+            <a mat-button href="https://youtu.be/DwvBZ__NAPU">Videos</a>
             <button *ngIf="!favorito" mat-button (click)="darfav()">Favoritos</button>
             <button *ngIf="favorito" mat-button> <mat-icon color="accent">star</mat-icon></button>
             </mat-card-actions>

@@ -1,6 +1,14 @@
 .example-card {
     max-width: 400px;
+    background: rgb(255,235,243);
+    background: radial-gradient(circle, rgba(255,235,243,1) 0%, rgba(255,118,146,1) 100%);
   }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  
   
   .example-header-image {
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
@@ -22,9 +30,9 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    background: #007b5e !important;
+    background: #f53c74 !important;
 }
-#footer h5{
+#footer h1{
 	padding-left: 10px;
     border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
